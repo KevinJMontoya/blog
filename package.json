@@ -1,0 +1,35 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Personal blog to share with everyone my thoughts and journey as I delve deeper into web development.",
+  "main": "src/index.js",
+  "bin": {
+    "blog": "bin/script.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinJMontoya/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "5.1.0",
+    "mysql2": "^3.14.1"
+  },
+  "bugs": {
+    "url": "https://github.com/KevinJMontoya/blog/issues"
+  },
+  "homepage": "https://github.com/KevinJMontoya/blog#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

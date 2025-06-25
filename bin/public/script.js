@@ -37,7 +37,7 @@ async function addPost() {
 
 async function loadPosts() {
   try {
-    const response = await fetch('/api/posts');
+    const response = await fetch('api/posts');
     if (!response.ok) throw new Error('Failed to load posts');
     const posts = await response.json();
     const postContainer = document.getElementById('journal-entry');
